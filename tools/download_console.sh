@@ -1,10 +1,10 @@
 #!/bin/bash
 package_name="console.tar.gz"
-default_version="2.7.2"
+default_version="3.0.0-rc1"
 download_version="${default_version}"
 specify_console=0
 solc_suffix=""
-supported_solc_versions=(0.4 0.5 0.6)
+supported_solc_versions=(0.6)
 
 LOG_WARN()
 {
